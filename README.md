@@ -1,3 +1,4 @@
 # konvoy-k8s-seminar
 
-Go to each lab for directions : )
+Follow Prepare first...
+Then go to each lab for directions : )
