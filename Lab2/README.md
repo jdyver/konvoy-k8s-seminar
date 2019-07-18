@@ -145,6 +145,12 @@ helmet-chart-0.0.1.tgz	index.yaml
 ```
 
 ```
+K-UPGRADE helmet-chart $ helm search helmet
+NAME              	CHART VERSION	APP VERSION	DESCRIPTION
+local/helmet-chart	0.0.1        	           	Helmet is a simple helm repository
+```
+
+```
 K-UPGRADE helmet-chart $   export NODE_PORT=$(kubectl get --namespace default -o jsonpath="{.spec.ports[0].nodePort}" services roiling-numbat-helmet-ch)
 K-UPGRADE helmet-chart $   export NODE_IP=$(kubectl get nodes --namespace default -o jsonpath="{.items[0].status.addresses[0].address}")
 K-UPGRADE helmet-chart $   echo http://$NODE_IP:$NODE_PORT/login
@@ -156,12 +162,6 @@ K-UPGRADE helmet-chart $ kubectl get services
 NAME                       TYPE        CLUSTER-IP    EXTERNAL-IP   PORT(S)          AGE
 kubernetes                 ClusterIP   10.0.0.1      <none>        443/TCP          48m
 roiling-numbat-helmet-ch   NodePort    10.0.62.198   <none>        1323:32345/TCP   3m17s
-```
-
-```
-K-UPGRADE helmet-chart $ helm search helmet
-NAME              	CHART VERSION	APP VERSION	DESCRIPTION
-local/helmet-chart	0.0.1        	           	Helmet is a simple helm repository
 ```
 
 #### Traefik example - Jenkins
