@@ -15,7 +15,10 @@
 install velero commandline
 brew install velero
 
+Create backup:
+```
 velero --kubeconfig=admin.conf backup create pre-upgrade-backup
+```
 
 Wait for backup to finish:
 ```
