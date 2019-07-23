@@ -167,3 +167,6 @@ roiling-numbat-helmet-ch   NodePort    10.0.62.198   <none>        1323:32345/TC
 #### Traefik example - Jenkins
 
 Show main cluster (with Jenkins installed on it)
+
+
+[Go to Lab 3](https://github.com/jdyver/konvoy-k8s-seminar/tree/master/Lab3)
