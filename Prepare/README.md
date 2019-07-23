@@ -109,3 +109,5 @@ Edit Cluster.yaml
 ```
 
 Add workload
+
+[Go to Lab 1](https://github.com/jdyver/konvoy-k8s-seminar/tree/master/Lab1)
