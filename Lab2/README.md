@@ -33,7 +33,7 @@ bash MySQLReplicationExample.sh test
 In a separate terminal run the loop to show which servers are getting hits:
 - Exit with CTRL-C
 ```
- Scripts $ kubectl run mysql-client-loop --image=mysql:5.7 -i -t --rm --restart=Never --\
+ Scripts $ kubectl run mysql-client-loop-forever --image=mysql:5.7 -i -t --rm --restart=Never --\
  bash -ic "while sleep 1; do mysql -h mysql-read -e 'SELECT @@server_id,NOW()'; done"
 If you don't see a command prompt, try pressing enter.
 +-------------+---------------------+
