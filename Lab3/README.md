@@ -38,6 +38,7 @@ Wait for restore to finish:
 -  There are errors, ignore them
 ```
 velero describe restore
+velero restore get (?)
 ```
 
 #### Upgrade 1.14.2 – 1.14.3
