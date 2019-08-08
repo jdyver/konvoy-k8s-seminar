@@ -95,7 +95,7 @@ ip-10-0-195-46.us-west-2.compute.internal    Ready    master   97m   v1.14.3
 
 #### Kafka / KUDO (time permitting) - In Grafana: Add Kafka grafana dashboard live
 
-https://github.com/tbaums/kudo-kafka-konvoy-demo
+https://github.com/jdyver/kudo-kafka-konvoy-demo
 
 #### Mayadata OpenEBS storage monitoring (mayaonline.io)
 
